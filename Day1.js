@@ -115,12 +115,59 @@
 //     console.log("invalid")
 // }
 
-var let = "P";
+// var let = "P";
 
-if (let>= "a" && let<="z") {
-    console.log("Lowercase")
-} else if (let >="A" && let<="Z") {
-    console.log("Uppercase")
-}else {
-    console.log("Invalid")
+// if (let>= "a" && let<="z") {
+//     console.log("Lowercase")
+// } else if (let >="A" && let<="Z") {
+//     console.log("Uppercase")
+// }else {
+//     console.log("Invalid")
+// }
+
+
+// var num1 = 13;
+// var num2 = 5;
+
+// function find(a,b) {
+//     console.log(a+b);
+//     console.log(a-b);
+//     console.log(a*b);
+//     console.log(a/b);
+// }
+// find(num1,num2)
+
+// var number = 196;
+
+// function check(see) {
+//     if(see%2 == 0){
+//         console.log("even number");
+//     }else {
+//         console.log("odd number");
+//     }
+// }
+// check(number)
+
+// var see = "dfdsW";
+
+// function let (be) {
+//     if(be>= 'A' && be<='Z'){
+//         console.log("Uppercase")
+//     }else if (be >='a' && be<='z'){
+//         console.log("Lowercase")
+//     }else {
+//         console.log("invalid")
+//     }
+// }
+// let(see)
+
+var number = 15;
+
+function multi(num){
+    if (num%3==0 && num%5==0){
+        console.log("even")
+    }else {
+        console.log("odd")
+    }
 }
+multi(number)
