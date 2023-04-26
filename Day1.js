@@ -161,13 +161,168 @@
 // }
 // let(see)
 
-var number = 15;
+// var number = 15;
 
-function multi(num){
-    if (num%3==0 && num%5==0){
-        console.log("even")
-    }else {
-        console.log("odd")
+// function multi(num){
+//     if (num%3==0 && num%5==0){
+//         console.log("even")
+//     }else {
+//         console.log("odd")
+//     }
+// }
+// multi(number)
+
+// var num1 = 18;
+// var num2 = 19;
+
+// if (num1>num2){
+//     console.log("num1 is larger")
+// }else if (num2>num1){
+//     console.log("num2 is larger")
+// }else {
+//     console.log("invalid")
+// }
+
+// var a ='casvsk'
+
+// if (a<5){
+//     console.log("short")
+// } else if (a<10){
+//     console.log("medium")
+// } else {
+//     console.log("long")
+// }
+
+// var a = 10;
+// var b = 15;
+// var c = 50;
+
+// if ((a-b-c)>=a ){
+//     console.log("a is incresing")
+// }else if ((b-a-c)>=b){
+//     console.log("b is increasing")
+// }else if ((c-a-b)>=c){
+//     console.log("c is increasing")
+// }else {
+//     console.log("neither decreing")
+// }
+
+// function find(a) {
+//     if (a%3==0 && a%7==0){
+//         console.log("true")
+//     }else{
+//         console.log("false")
+//     }
+// }
+// find(21);
+
+
+// Print the numbers 1 to 10 using a for loop.
+// for (i=1;i<=10;i++){
+//     console.log(i)
+// }
+
+
+// Print the even numbers from 1 to 20 using a for loop.
+// for (i=1;i<=20;i++){
+//     if(i%2==0){
+//         console.log(i)
+//     }
+// }
+
+
+
+// var char = 'navnsdsd'
+
+// if (char.length<=5){
+//     console.log("Short")
+// } else if (char.length<=10){
+//     console.log("medium")
+// }else {
+//     console.log("long")
+// }
+
+// Print the sum of the numbers from 1 to 100 using a for loop.
+
+// var i = 1;
+// var sum = 0;
+
+// for (i=1;i<=100;i++){
+//     sum = sum+i;
+//     console.log(sum)
+// }
+
+// Print the multiplication table of a number up to 10 using a for loop.
+// var num = 3;
+// for(i=1;i<=10;i++){
+//     console.log(i*num)
+// }
+
+// Write a function that takes a string as an argument and returns
+//  true if the string contains the word "hello", and false otherwise.
+
+// var a = 'hello'
+
+// if(a == 'hello'){
+//     console.log("true")
+// }else {
+//     console.log("false")
+// }
+
+// var a ='hi';
+
+// function find(z){
+//     if(z == 'hello'){
+//         console.log("True")
+//     }else {
+//         console.log("False")
+//     }
+// }
+// find(a);
+
+// Print the reverse of a string using a for loop.
+
+// var num = 12345;
+// var reversed = 0;
+
+// for( ;num!== 0 ;num = Math.floor(num/10)){
+//     reversed= reversed*10 + num%10;
+// }
+// console.log(reversed)
+
+//  Write a function that takes three numbers as arguments and returns "increasing" if the numbers
+// are in increasing order, "decreasing" if they are in decreasing order, and "neither" if they 
+// are neither in increasing nor decreasing order.
+
+// var a = 50;
+// var b = 50;
+// var c = 50;
+
+// function find(x,y,z){
+//     if (a>b && a>c){
+//         console.log("a is increasing")
+//     } else if (b>a && b>c){
+//         console.log("b is increasing")
+//     }else if(c>a && c>b){
+//         console.log("c is increasing")
+//     }else {
+//         console.log("invalid")
+//     }
+// }
+
+// find(a,b,c)
+
+// Write a function that takes an array of numbers as an argument and
+// returns the smallest positive number in the array. If there are no positive numbers 
+// in the array, return -1.
+
+
+var a = [15,10,5,8,6]
+var min = a[0]
+
+for(i=0;i<=a.length;i++){
+    if (a[i]<min){
+        min=a[i]
     }
 }
-multi(number)
+console.log(min);
