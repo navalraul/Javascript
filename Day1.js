@@ -317,12 +317,135 @@
 // in the array, return -1.
 
 
-var a = [15,10,5,8,6]
-var min = a[0]
+// var a = [15,10,5,8,6]
+// var min = a[0]
 
-for(i=0;i<=a.length;i++){
-    if (a[i]<min){
-        min=a[i]
+// for(i=0;i<=a.length;i++){
+//     if (a[i]<min){
+//         min=a[i]
+//     }
+// }
+// console.log(min);
+
+
+// Write a function that takes an array of integers and returns the sum
+// of all the elements in the array.
+
+
+// var a = [1,2,3,4,5,6,7,8,9,10];
+// var sum = 0;
+
+// for (i=0;i<=a.length;i++){
+//     sum=sum+a[i];
+//     console.log(sum)
+// }
+
+// Write a function that takes an array of integers and returns the maximum value in the array.
+
+// var x = [54,98,5546,44];
+// var max = x[0]
+
+// for (i=0;i<=x.length;i++){
+//     if(x[i]>max){
+//         max=x[i]
+//     }
+// }
+// console.log(max)
+
+// Write a function that takes an array of integers and returns the minimum value in the array.
+
+
+// var b = [54,58,87,32,97,2];
+// var min = b[0];
+
+// for(i=0;i<=b.length;i++){
+//     if(b[i]<min){
+//         min=b[i]
+//     }
+// }
+// console.log(min)
+
+// Write a function that takes an array of integers and returns a new array that contains
+// only the even numbers in the original array.
+
+// var abc = [1,2,3,4,5,6,7,8,9,10];
+
+// function find(x){
+//     for(i=0;i<=abc.length;i++){
+//         if(abc.length[i]%2 ==0){
+//             console.log(i)
+//         }
+//     }
+// }
+// find(abc)
+
+// var x = [21,54,87,34,95,61,2];
+
+// for(i=0;i<=x.length;i++){
+//     if(x[i]%2 == 0){
+//         console.log(x[i])
+//     }
+// }
+
+// Write a function that takes an array of integers and returns a new array that contains only the odd numbers in the original array.
+
+
+// var a = [1,2,3,4,5,6,7,8,9,10];
+
+// for(i=0;i<=a.length;i++){
+//     if(a[i]%2 == 1){
+//         console.log(a[i])
+//     }
+// }
+
+// Write a function that takes an array of integers and returns the average value of the 
+// elements in the array.
+
+// var num = [2,4,5,6,8];
+// var sum = 0;
+// var b = [];
+
+
+// for(i=0;i<=num.length;i++){
+//     sum = sum + num[i];
+  
+//     console.log(sum);
+//  console.log(sum/num.length); 
+//  b.push (sum/num.length) 
+// }
+// console.log([b]) 
+
+// var array = [34,45,65,23,10,676,34,39];
+// var target = 66;
+
+// for (i=0;i <= array.length;i++){
+//     if(array[i] == target){
+//         console.log("target found")
+//     }else{
+//         console.log(target,"not found")
+//     }
+// }
+
+
+
+// var start = 5799;
+// var end = 78459;
+
+
+
+
+var array = [3,5,79,45,0,-67,23,77,19,78,12];
+var number = 19;
+
+for (i=0;i<=array.length;i++){
+    if(array[i] == number){
+        console.log(i*10)
+    }else {
+        console.log("number not found")
     }
 }
-console.log(min);
+
+
+// var array = [34,45,567,78,89,34,67,87,34,78,89];
+
+
