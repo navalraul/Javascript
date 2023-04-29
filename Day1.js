@@ -359,7 +359,7 @@
 // var min = b[0];
 
 // for(i=0;i<=b.length;i++){
-//     if(b[i]<min){
+//     if(b[i]>min){
 //         min=b[i]
 //     }
 // }
@@ -434,18 +434,62 @@
 
 
 
-var array = [3,5,79,45,0,-67,23,77,19,78,12];
-var number = 19;
+// var array = [3,5,79,45,0,-67,23,77,19,78,12];
+// var number = 19;
 
-for (i=0;i<=array.length;i++){
-    if(array[i] == number){
-        console.log(i*10)
-    }else {
-        console.log("number not found")
-    }
-}
+// for (i=0;i<=array.length;i++){
+//     if(array[i] == number){
+//         console.log(i*10)
+//     }else {
+//         console.log("number not found")
+//     }
+// }
 
 
 // var array = [34,45,567,78,89,34,67,87,34,78,89];
 
 
+// Write a program that creates an array of 5 integers and then prints each element of the array.
+
+
+// var a = [2,5,7,65,85,95,3,4];
+
+// console.log(a)
+
+// Write a program that creates an array of 10 integers, 
+// asks the user to input 10 integers, then prints the sum of all the elements in the array.
+
+// var x = [1,2,3,4,5,6,7,8,9,10];
+// var input=[1,2,3,4,5,6,7,8,9,10];
+// var sum = 0;
+// var sum1 = 0;
+
+// for (i=0;i<=x.length;i++){
+//     sum=sum+i;
+//     console.log(sum)
+//     for(k=0;k<=input.length;k++){
+//         sum1=sum1+k;
+//         console.log(sum1)
+//     }
+// }console.log(sum+sum1)
+
+// var x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+// var sum = 0;
+
+// for(i=0;i<=x.length;i++){
+//     sum=sum+i;
+//     console.log(sum)
+// }
+
+// Write a program that creates an array of 7 integers and 
+// then prints the largest value in the array.
+
+var a = [25,35,65,87,2,69];
+var lar = a[0];
+
+for(i=0;i<=a.length;i++){
+    if(a[i]>lar){
+        a[i]=lar
+    }
+}
+console.log(lar)
