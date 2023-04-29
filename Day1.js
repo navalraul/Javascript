@@ -473,23 +473,154 @@
 //     }
 // }console.log(sum+sum1)
 
-// var x = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+// var x = [1,2,3,4,5,6]
 // var sum = 0;
 
 // for(i=0;i<=x.length;i++){
-//     sum=sum+i;
-//     console.log(sum)
+//     sum+=i;
 // }
+// console.log(sum)
 
 // Write a program that creates an array of 7 integers and 
 // then prints the largest value in the array.
 
-var a = [25,35,65,87,2,69];
-var lar = a[0];
+// var a = [25,35,65,87,286,69];
+// var lar = a[0];
 
-for(i=0;i<=a.length;i++){
-    if(a[i]>lar){
-        a[i]=lar
-    }
-}
-console.log(lar)
+// for(i=0;i<=a.length;i++){
+//     if(a[i]>lar){
+//         lar=a[i]
+//     }
+// }
+// console.log(lar)
+
+// Write a program that creates an array of 15 integers and then finds and prints 
+// the index of the first occurrence of the value 10 in the array.
+
+// var x = [0,6,8,5,9,10,2,35,64,57,21,54,95];
+// var num = 10;
+// for(i=0;i<x.length;i++){
+//     if(num == x[i]){
+//         console.log(i)
+//     }
+// }
+
+// Write a program that creates an array of 20 integers and then calculates and prints 
+// the average of all the values in the array.
+
+// var a = [5,8,5,6,9,7,8,9,6,2,3,7,1,2,3,4];
+// var sum = 0;
+
+// for (i=0;i<=a.length;i++){
+//     sum+=i;
+    
+// }
+// console.log(sum/a.length)
+
+// Write a program that creates an array of 25 integers and then finds and prints the 
+// index of the last occurrence of the value 5 in the array.
+
+// var a = [3,55,62,84,6,4,9,3,7,1,2,5,69,45,21,63,95,5];
+// var num = 5;
+
+// for (i=0;i<a.length;i++){
+//     if(num == a[i]){
+//         console.log(i)
+//     }
+// }
+
+// Write a program that creates an array of 12 integers and then calculates and prints 
+// the product of all the elements in the array.
+
+// var array = [1,2,3,4];
+// sum = 1;
+
+// for (i=0;i<array.length;i++){
+//     sum=sum*array[i];
+// }
+// console.log(sum)
+
+// Write a program that creates an array of 8 integers and then finds and prints the 
+// smallest value in the array.
+
+// var a = [50,65,84,96,35,155,36,45,15];
+// var small = a[0];
+
+// for(i=0;i<a.length;i++){
+//     if(a[i]<small){
+//         small=a[i]
+//     }
+// }
+// console.log(small)
+
+
+
+// var array = [34,45,65,23,10,676,34,39];
+// var target = 68;
+// var flag = false;
+// for(var i=0;i<array.length;i++){
+//     for(j=array.length-1;j>i;j--){
+//         if(array[i]+array[j]==target){
+//             flag = true;
+//             console.log(array[i],array[j]);
+//             break;
+//         }
+//     }
+// }
+
+// if(flag){
+//     return true;
+// } else {
+//     console.log("Not Found");
+// }
+
+// Write a program that creates an array of 6 integers and then asks the user 
+// to input a number. The program should then check if the number is in the array 
+// and print whether or not it is.
+
+// var b = [65,54,62,32,1,2,5,9,];
+// var find = 65;
+
+// for(i=0;i<b.length;i++){
+//     if(find == b[i]){
+//         console.log("found")
+//     }else {
+//         console.log("not found")
+//         break;
+//     }
+// }
+
+// Write a program that creates an array of 9 integers and then sorts the array in 
+// ascending order. The sorted array should then be printed.
+
+
+// var a = [2,5,9,3,4,6,8,2,1,6];
+
+
+
+// Write a program that creates an array of 3 floating-point numbers and then calculates 
+// and prints the sum of the first and last elements in the array.
+
+// var 
+
+
+// Write a program that creates an array of 5 strings and then prints each 
+// string in reverse order.
+
+// var a = ['b','x','c','f','h'];
+
+// for(i=a.length-1;i<=a.length;i++){
+//     console.log(i)
+// }
+
+// Write a program that creates an array of 8 integers and then finds and prints 
+// the total number of even integers in the array.
+
+// var a = [1,2,3,4,5,6,7,8,9,10];
+
+// for (i=0;i<=a.length;i++){
+//     if(a[i]%2 == 0){
+//         console.log(i)
+//     }
+// }
+
