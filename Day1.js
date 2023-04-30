@@ -336,9 +336,9 @@
 // var sum = 0;
 
 // for (i=0;i<=a.length;i++){
-//     sum=sum+a[i];
-//     console.log(sum)
+//     sum+=i;
 // }
+// console.log(sum)
 
 // Write a function that takes an array of integers and returns the maximum value in the array.
 
@@ -601,7 +601,9 @@
 // Write a program that creates an array of 3 floating-point numbers and then calculates 
 // and prints the sum of the first and last elements in the array.
 
-// var 
+// var a = [1.2,2.2,3.0];
+
+// console.log(a[0]+a[a.length-1])
 
 
 // Write a program that creates an array of 5 strings and then prints each 
@@ -624,3 +626,57 @@
 //     }
 // }
 
+
+// var array = [34,54,85,9,6,3,84,25,5];
+// var target = 34;
+
+// var flag = false;
+// for(i=0;i<array.length;i++){
+//     for(j=array.length-1;j>i;j--){
+//         if(array[i]+array[j]==target){
+//             flag=true;
+//             console.log(array[i],array[j]);
+//             break;
+//         }
+//     }
+// }
+
+// if(flag){
+//     return true;
+// }else {
+//     console.log("Not found")
+// }
+
+// var start = 5799;
+// var end = 78659;
+// var sum = 0;
+
+// for (i=start;i<=end;i+=3){
+//     sum+=i;
+// }
+// console.log(sum);
+
+
+// Write a program that creates two arrays of 6 integers each and then calculates 
+// and prints the sum of the corresponding elements in the two arrays 
+// (i.e. the sum of the first elements, the sum of the second elements, etc.).
+
+// var a = [1,3,4,5,6];
+// var b = [8,9,6,7,6];
+// var sum = 0;
+
+// for (i=0;i<a.length;i++){
+    
+// }
+// console.log(sum)
+
+// print in reverse order
+
+
+// var string = "Naval";
+// var rev ="";
+
+// for(i=string.length-1;i>=0;i--){
+//     rev=rev+string[i]
+// }
+// console.log(rev)
