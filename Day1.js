@@ -342,7 +342,7 @@
 
 // Write a function that takes an array of integers and returns the maximum value in the array.
 
-// var x = [54,98,5546,44];
+// var x = [54,9854,5546,44];
 // var max = x[0]
 
 // for (i=0;i<=x.length;i++){
@@ -355,11 +355,11 @@
 // Write a function that takes an array of integers and returns the minimum value in the array.
 
 
-// var b = [54,58,87,32,97,2];
+// var b = [54,58,87,32,97,220];
 // var min = b[0];
 
 // for(i=0;i<=b.length;i++){
-//     if(b[i]>min){
+//     if(b[i]<min){
 //         min=b[i]
 //     }
 // }
@@ -371,8 +371,8 @@
 // var abc = [1,2,3,4,5,6,7,8,9,10];
 
 // function find(x){
-//     for(i=0;i<=abc.length;i++){
-//         if(abc.length[i]%2 ==0){
+//     for(i=0;i<=x.length;i++){
+//         if(x[i]%2 ==0){
 //             console.log(i)
 //         }
 //     }
