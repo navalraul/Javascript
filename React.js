@@ -23,7 +23,7 @@
 
 // const array1 = ['a','b','c','d','e'];
 
-// console.log(array1.copyWithin(3,4));
+// console.log(array1.copyWithin(1,4));
 
 // ****************Array.prototype.entries()*************
 
@@ -41,7 +41,7 @@
 
 // const isBelowThreshold = (currentValue) => currentValue < 40;
 
-// const array1 = [1, 30, 39, 80, 10, 13];
+// const array1 = [60, 30, 40, 80, 10, 13];
 
 // console.log(array1.every(isBelowThreshold));
 
