@@ -681,13 +681,62 @@
 // }
 // console.log(rev)
 
-function longestCommonPrefix(strs) {
-    if (strs.length === 0) return '';
-    let prefix = strs[0];
-    for (let i = 1; i < strs.length; i++) {
-        while (strs[i].indexOf(prefix) !== 0) {
-            prefix = prefix.substring(0, prefix.length - 1);
-        }
+// function longestCommonPrefix(strs) {
+//     if (strs.length === 0) return '';
+//     let prefix = strs[0];
+//     for (let i = 1; i < strs.length; i++) {
+//         while (strs[i].indexOf(prefix) !== 0) {
+//             prefix = prefix.substring(0, prefix.length - 1);
+//         }
+//     }
+//     return prefix;
+// }
+
+// function twoSum(nums, target) {
+//     const numIndices = new Map();  // Map to store the indices of numbers
+    
+//     for (let i = 0; i < nums.length; i++) {
+//         const num = nums[i];
+//         const complement = target - num;
+        
+//         if (numIndices.has(complement)) {
+//             return [numIndices.get(complement), i];
+//         }
+        
+//         numIndices.set(num, i);
+//     }
+    
+//     return null;  // If no solution is found
+// }
+
+// // Example 1
+// const nums1 = [2, 7, 11, 15];
+// const target1 = 9;
+// const result1 = twoSum(nums1, target1);
+// console.log(result1);  // Output: [0, 1]
+
+// // Example 2
+// const nums2 = [3, 2, 4];
+// const target2 = 6;
+// const result2 = twoSum(nums2, target2);
+// console.log(result2);  // Output: [1, 2]
+
+// Extending the Array prototype
+Array.prototype.last = function() {
+    if (this.length === 0) {
+        return -1;
+    } else {
+        return this[this.length - 1];
     }
-    return prefix;
 }
+
+// Example 1
+const nums1 = [null, {}, 3];
+const result1 = nums1.last();
+console.log(result1);  // Output: 3
+
+// Example 2
+const nums2 = [];
+const result2 = nums2.last();
+console.log(result2);  // Output: -1
+
