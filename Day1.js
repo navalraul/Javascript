@@ -755,7 +755,29 @@
 // console.log(1 < 2 < 3)
 // console.log(3 > 2 > 1)
 
-let arr = [0, 1, 2, 3, 4, 5]
-let res = arr.filter((e) => e < 3).map((e) => e*2)
+// let arr = [0, 1, 2, 3, 4, 5]
+// let res = arr.filter((e) => e < 3).map((e) => e*2)
 
-console.log(res)
+// console.log(res)
+
+// console.log([1,2] == [1,2])
+
+// const number = [0, 1, 2, 3, 4, 5]
+// number.push(6)
+// console.log(number)
+
+const user1 = {
+    name: 'John',
+    age: 25,
+    address: {
+        city: 'Mumbai',
+        state: 'Maha'
+    }
+}
+
+var user2 = JSON.parse(JSON.stringify(user1))
+user2.name = 'Rames'
+user2.address.city = 'Pune'
+
+console.log(user1)
+console.log(user2)
