@@ -722,21 +722,21 @@
 // console.log(result2);  // Output: [1, 2]
 
 // Extending the Array prototype
-Array.prototype.last = function() {
-    if (this.length === 0) {
-        return -1;
-    } else {
-        return this[this.length - 1];
-    }
-}
+// Array.prototype.last = function() {
+//     if (this.length === 0) {
+//         return -1;
+//     } else {
+//         return this[this.length - 1];
+//     }
+// }
 
-// Example 1
-const nums1 = [null, {}, 3];
-const result1 = nums1.last();
-console.log(result1);  // Output: 3
+// // Example 1
+// const nums1 = [null, {}, 3];
+// const result1 = nums1.last();
+// console.log(result1);  // Output: 3
 
-// Example 2
-const nums2 = [];
-const result2 = nums2.last();
-console.log(result2);  // Output: -1
+// // Example 2
+// const nums2 = [];
+// const result2 = nums2.last();
+// console.log(result2);  // Output: -1
 
