@@ -740,3 +740,22 @@
 // const result2 = nums2.last();
 // console.log(result2);  // Output: -1
 
+// console.log(typeof '5'+ 3)
+// console.log(typeof '5' - 3)
+
+// console.log('2'+ 3 * 4)
+
+// var a = 5;
+// console.log(a++)
+// console.log(a)
+
+// console.log(typeof NaN)
+// console.log(NaN === NaN)
+
+// console.log(1 < 2 < 3)
+// console.log(3 > 2 > 1)
+
+let arr = [0, 1, 2, 3, 4, 5]
+let res = arr.filter((e) => e < 3).map((e) => e*2)
+
+console.log(res)
