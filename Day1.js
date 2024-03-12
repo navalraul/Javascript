@@ -766,20 +766,20 @@
 // number.push(6)
 // console.log(number)
 
-// const user1 = {
-//     name: 'John',
-//     age: 25,
-//     address: {
-//         city: 'Mumbai',
-//         state: 'Maha'
-//     }
-// }
+const user1 = {
+    name: 'John',
+    age: 25,
+    address: {
+        city: 'Mumbai',
+        state: 'Maha'
+    }
+}
 
-// var user2 = JSON.parse(JSON.stringify(user1))
-// user2.name = 'Rames'
-// user2.address.city = 'Pune'
+var user2 = JSON.parse(JSON.stringify(user1))
+user2.name = 'Rames'
+user2.address.city = 'Pune'
 
-// console.log(user1)
-// console.log(user2)
+console.log(user1)
+console.log(user2)
 
 
